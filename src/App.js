@@ -2,13 +2,18 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Login from "./Pages/Login";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Login />} />
+
+
+        <Route path="/" element={<Layout />}>
+
+        <Route index element={<Dashboard />} />
+
       </Route>
     </Routes>
   );
@@ -17,6 +22,7 @@ function App() {
 export default App;
 
 
+// https://dashtar-admin.netlify.app/dashboard
 
 // import { useLocation } from 'react-router-dom';
 // import Header from './Components/Layouts/Header';
@@ -40,7 +46,6 @@ export default App;
 
 // export default Layout;
 
-
 // import "./App.css";
 // import { Route, Routes } from "react-router-dom";
 // import Layout from "./Layout";
@@ -60,3 +65,6 @@ export default App;
 // }
 
 // export default App;
+
+
+
