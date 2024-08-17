@@ -1,10 +1,6 @@
-import LoginIndex from "../Auth/Login.jsx";
+import Loginindex from "../Auth/Login/Index";
 const Login = () => {
-  return (
-    <>
-     <LoginIndex/>
-    </>
-  )
-}
+  return <><Loginindex/></>;
+};
 
-export default Login
+export default Login;
