@@ -3,7 +3,7 @@ import Totalcount from '../Components/Dashboard/Totalcount'
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className=''>
       <Totalcount
 />
     </div>

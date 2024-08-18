@@ -29,7 +29,7 @@ const Index = () => {
           <div className="w-2/12 mb-9">
           <img src={LogoPng} className="w-full h-full" alt="" />
           </div>
-          <h1 className="  font-Barlow   w-fit h-fit  font-normal text-white text-[1.4rem]">KALYAN JEWELLERS <br /> Uploade your Products with this Admin Panel</h1>
+          <h1 className="  font-Barlow   w-fit h-fit  font-normal text-white text-[1.2rem]">KALYAN JEWELLERS <br /> Uploade your Products with this Admin Panel</h1>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const Index = () => {
               <form className="w-full">
                 <div className="flex flex-col items-center justify-center w-full gap-4 ">
                   <div className="!flex-col flex w-8/12">
-                    <label className="mb-[8px]">Enter Password</label>
+                    <label className="mb-[8px]">User Name</label>
                     <TextField
                       InputLabelProps={{
                         shrink: true,
@@ -56,7 +56,7 @@ const Index = () => {
                     />
                   </div>
                   <div className="!flex-col flex w-8/12">
-                    <label className="mb-[8px]">Enter Password</label>
+                    <label className="mb-[8px]"> Password</label>
                     <FormControl variant="outlined">
                       <OutlinedInput
                         placeholder="Enter Gmail id"
@@ -96,7 +96,7 @@ const Index = () => {
               </div>
               <div className="w-8/12 text-center mt-9">
                 Don't have an account?
-                <span className="font-semibold">Sign Up</span>
+                <span className="font-semibold text-primary"> Sign Up</span>
               </div>
             </div>
           </div>
