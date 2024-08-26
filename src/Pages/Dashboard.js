@@ -1,13 +1,11 @@
-
-import Totalcount from '../Components/Dashboard/Totalcount'
-
+import DashbordIndex from "../Components/Dashboard/Index";
 const Dashboard = () => {
   return (
-    <div className=''>
-      <Totalcount
-/>
-    </div>
-  )
-}
+    <>
+     
+      <DashbordIndex />
+    </>
+  );
+};
 
-export default Dashboard
+export default Dashboard;

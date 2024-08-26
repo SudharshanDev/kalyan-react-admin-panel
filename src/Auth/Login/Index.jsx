@@ -8,9 +8,9 @@ import {
   InputAdornment,
   OutlinedInput,
 } from "@mui/material";
-import Logo from "../../Images/Logo/kalyan_logo.png";
-import LoginBaground from "../../Images/Baground/bg-gold.jpg";
-import LogoPng from "../../Images/Logo/logo-icon-1.png";
+import Logo from "../../Assets/Images/Logo/kalyan_logo.png";
+import LoginBaground from "../../Assets/Images/Backgrounds/bg-gold.jpg";
+import LogoPng from "../../Assets/Images/Logo/logo-icon-1.png";
 const Index = () => {
   const [showPassword, setShowPassword] = useState(false);
 

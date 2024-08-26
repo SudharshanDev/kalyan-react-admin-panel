@@ -1,26 +1,24 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
-import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
+import ForgotPassword from "./Pages/Auth/ForgotPassword";
+import Login from "./Pages/Auth/Login";
 
 function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+  <Route path="/forgot-password" element={<ForgotPassword />} />
 
-
-        <Route path="/" element={<Layout />}>
-
+      <Route path="/" element={<Layout />}>
         <Route index element={<Dashboard />} />
-
+    
       </Route>
     </Routes>
   );
 }
 
 export default App;
-
 
 // https://dashtar-admin.netlify.app/dashboard
 
@@ -65,6 +63,3 @@ export default App;
 // }
 
 // export default App;
-
-
-
